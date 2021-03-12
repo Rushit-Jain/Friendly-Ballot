@@ -1,0 +1,576 @@
+*,
+::after,
+ ::before {
+    box-sizing: unset;
+}
+
+.container1 {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#loginbtn {
+    color: #ffffff;
+    font-size: 15px;
+    margin-right: 10px;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+#signupbtn {
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: #ff4149;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 24px;
+}
+
+.fa {
+    padding: 5px;
+}
+
+#titlehead-1 {
+    color: #ffffff;
+    font-size: 35px;
+    background-color: #000000;
+    font-family: 'Kumbh Sans', sans-serif;
+    padding: 1rem;
+}
+
+#titlehead-2 {
+    color: #ffffff;
+    font-size: 35px;
+    font-family: 'Kumbh Sans', sans-serif;
+    padding: 0.5rem;
+}
+
+.nav-right1 {
+    float: right;
+    font-family: 'Kumbh Sans', sans-serif;
+    margin-right: 10px;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+#logo1 {
+    float: left;
+    margin-left: 30px;
+}
+
+body {
+    margin: 0px;
+}
+
+nav {
+    height: 50px;
+    padding-top: 15px;
+}
+
+header div nav ul {
+    list-style-type: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header div nav ul li a {
+    color: #fffff0;
+    font-family: 'Kumbh Sans', sans-serif;
+    text-decoration: none;
+    margin: 50px;
+    font-size: 20px;
+    padding: 1rem;
+    vertical-align: baseline;
+}
+
+header div nav ul li a:hover, .link-select {
+    background-color: rgba(0, 0, 0, 0.5);
+    color:white;
+    text-decoration: none;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.jumbotron1 {
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background: url('./header.png') no-repeat;
+    background-size: cover;
+}
+
+#titlename1 {
+    text-align: center;
+    padding: 50px;
+}
+
+@media (min-width:768px) {
+    .container1 {
+        width: 750px
+    }
+}
+
+@media (min-width:992px) {
+    .container1 {
+        width: 970px
+    }
+}
+
+@media (min-width:1200px) {
+    .container1 {
+        width: 1170px
+    }
+}
+
+footer {
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+footer div ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.flex-container1 {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 50px;
+    width: 100%;
+    height: 100%;
+    background: url('./footer.png') no-repeat;
+    background-size: cover;
+    justify-content: space-around;
+}
+
+.flex-container1 div {
+    color: #fffff0;
+    margin: 10px;
+    padding: 20px;
+}
+
+.flex-container1 div ul li a {
+    color: #fffff0;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px;
+    padding: 15px;
+    vertical-align: baseline;
+}
+
+.flex-container1 div ul {
+    margin: 0px;
+}
+
+.flex-container1 div ul li {
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+
+footer div a {
+    color: #ffffbd;
+    text-decoration: none;
+}
+
+body {
+    background-color: #000000;
+}
+
+.content-section1 {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 50px;
+    background-color: #00203fff;
+    color: #ffffbd;
+    height: 150px;
+}
+
+.content-section-1 {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 50px;
+    color: #00203fff;
+    background-color: #ffffbd;
+    height: 150px;
+}
+
+.content-text1 ul {
+    flex: 0.9;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 20px;
+}
+
+.content-text1 h2 {
+    margin-top: 0px;
+    font-family: 'Cinzel', serif;
+}
+
+.content-text1 ul li {
+    margin-bottom: 3px;
+}
+
+.content-img-1 {
+    font-size: 125px;
+    flex: 0.1;
+    margin-left: 150px
+}
+
+.content-img-2 {
+    font-size: 125px;
+    flex: 0.1;
+    margin-right: 100px;
+}
+
+#tagline {
+    color: #ffffff;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 35px;
+}
+
+.flex-container-2 {
+    font-family: 'Kumbh Sans', sans-serif;
+    display: flex;
+    color: white;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.flex-container-2 div i {
+    text-align: center;
+    padding: auto;
+}
+
+.flex-container-2 div p {
+    word-wrap: break-word;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.heads1 {
+    color: black;
+    background-color: #D4F1F4;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+#flex-item1,
+#flex-item2,
+#flex-item3 {
+    margin-bottom: 30px;
+}
+
+.content1 {
+    background-color: rgba(24, 154, 180, 0.4);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+#waw {
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+#waw p {
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+#waw h2 {
+    font-family: 'Cinzel', serif;
+}
+
+#mainhead1 {
+    background-image: radial-gradient(farthest-corner at 50% 105%, rgba(24, 154, 180, 0.7), rgba(24, 154, 180, 0.25), black);
+    padding-top: 20px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+.btn1 {
+    background: url('./raisehands.png');
+    opacity: 1;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn1 p {
+    text-align: center;
+    padding-top: 10%;
+    color: white;
+    font-family: 'Cinzel', serif;
+    margin-bottom: 27px;
+    font-size: 18px;
+}
+
+.btn1 a {
+    background-color: forestgreen;
+    padding: 20px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    font-size: 25px;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: white;
+    text-align: center;
+    margin-left: 39%;
+    text-decoration: none;
+}
+
+#features1 {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+#credits {
+    color: #ffffbd;
+}
+
+#footer-mid1 {
+    text-align: center;
+}
+
+body {
+    background-color: black;
+}
+
+/* Label Styling */
+
+.form-group {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+.form-control-placeholder {
+    position: absolute;
+    top: 5px;
+    padding: 7px 0 0 13px;
+    transition: all 200ms;
+    opacity: 0.5;
+}
+
+.form-control:focus+.form-control-placeholder,
+.form-control:valid+.form-control-placeholder {
+    font-size: 75%;
+    transform: translate3d(0, -125%, 0);
+    opacity: 1;
+    color:white;
+}
+
+/* Style for Modal Of Sign Up */
+
+.signup {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.modal-header{
+    align-items: center;
+    color: yellow;
+    background-color: rgb(0, 0, 0);
+}
+
+.modal-header .close {
+    margin:0;
+}
+
+#loginModalLabel, #signupModalLabel {
+    margin: 0 auto;
+    color: #ffffbd;
+}
+.modal-footer{
+    background-color: black;
+}
+
+.modal-body{
+    background-image: radial-gradient(farthest-corner at 50% 105%, #5a8, #166, #113);
+    padding: 10px;
+}
+
+.times{
+    color: red;
+}
+
+#fnameerr, #lnameerr, #passworderr, #cnfpwderr, #emailerr, #unameerr {
+    display: none;
+    font-size: 12px;
+}
+
+.modal-title {
+    font-family: 'Cinzel', serif;
+    text-align: center;
+}
+
+#fname, #lname, #username, #password, #cnfpwd, #email, #loginemail, #loginpassword {
+    border-radius: 25px;
+}
+
+.page-head {
+    font-family: 'Cinzel', serif;
+    color: #ffffbd;
+    text-align: center;
+}
+
+.page-content {
+    font-family: 'Kumbh Sans', sans-serif;
+    color: #ffffbd;
+    text-align: center;
+}
+
+.page-content-1 {
+    font-family: 'Kumbh Sans', sans-serif;
+    color: #00203fff;
+}
+
+.div-1 {
+    background-color: #ffffbd;
+    color: #00203fff;
+    padding: 30px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.div-2 {
+    color: #ffffbd;
+    background-color: #00203fff;
+    padding: 30px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.content-head-1 {
+    font-family: 'Grenze Gotisch', cursive;
+    color: #00203fff;
+    text-align: center;
+}
+
+.content-head-2 {
+    font-family: 'Grenze Gotisch', cursive;
+    color: #ffffbd;
+    text-align: center;
+}
+
+#content-para {
+    text-align: center;
+    font-family: 'Lobster Two', cursive;
+    font-size: 28px;
+}
+
+div #author {
+    text-align: center;
+    font-family: 'Lobster Two', cursive;
+    font-size: 25px;
+}
+
+#creators {
+    border-radius: 50%;
+}
+
+.anime{
+    display: none;
+}
+.demo{
+    display: none;
+}
+#down{
+    width: 30px;
+    height: 30px;
+    margin: 20px;
+    padding:20px 20px;
+    font-size: 25px;
+    border-radius: 35px;
+    background-color: rgba(255, 255, 255,0.8);
+}
+
+#down:hover{
+    background-color: rgba(255, 255, 255,1);
+    border: 3px solid #ffffbd;
+}
+#down:focus,#down:visited{
+    outline: none;
+    box-shadow: none!important;
+    border: 0px solid;
+    
+}
+
+.ui-tooltip, .arrow:after {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+  }
+.ui-tooltip {
+    padding: 5px 10px;
+    color: black;
+    border-radius: 20px;
+    font: bold 15px "Helvetica Neue", Sans-Serif;
+    text-transform: uppercase;
+    box-shadow: 0 0 7px white;
+  }
+  .arrow {
+    width: 70px;
+    height: 12px;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    margin-left: -35px;
+    bottom: -14px;
+  }
+  .arrow.top {
+    top: -16px;
+    bottom: auto;
+  }
+  .arrow.left {
+    left: 20%;
+  }
+  .arrow:after {
+    content: "";
+    position: absolute;
+    left: 20px;
+    top: -20px;
+    width: 25px;
+    height: 20px;
+    box-shadow: 6px 5px 9px -9px white;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  .arrow.top:after {
+    bottom: -20px;
+    top: auto;
+  }
+
+  .slider{
+      color:white;
+      text-align: center !important;
+      font-size: 25px;
+      font-family: 'Lobster Two', cursive;
+  }
+
+  .fa-star, .fa-star-half-o,.fa-star-o {
+    color: #FFD700;
+  }
