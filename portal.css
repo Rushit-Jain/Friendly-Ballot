@@ -1,0 +1,77 @@
+nav {
+    background-color: #0b00ff42;
+    font-family: 'Cinzel Decorative';
+}
+
+.navbar-brand{
+    font-size: 30px;
+}
+
+.username , .fa .fa-user-circle{
+    font-size: 20px;
+}
+
+.dropdown-toggle, .dropdown-toggle:hover {
+    color: black;
+}
+
+.nav-item-ud {
+    padding: 10px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: bold;
+    color: white;
+    margin: 10px;
+}
+
+.side-nav-ud {
+    height: 100vh;
+    background-color: purple;
+    text-align: center;
+    padding: 20px;
+}
+
+hr {
+    background-color: white
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:hover div {
+    background-color: rgba(255,255,240,1);
+    color: purple;
+    border-radius: 25px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+}
+
+h4 {
+    text-align: center;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.table{
+    width: 50%;
+    align-items: center;
+    margin: 0px auto;
+}
+.nav-item-cast-ud {
+    background-color: #563d7c;
+    padding: 7px 14px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: bold;
+    color: #ffe484;
+    margin: 10px;
+    border: 2px solid #ffe484 ;
+    border-radius: 10px;
+    font-size: 13px;
+}
+#votebtn:hover,.nav-item-cast-ud:hover  {
+    background-color: #ffe484;
+    color: #563d7c;
+    
+}
